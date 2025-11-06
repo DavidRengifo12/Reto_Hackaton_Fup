@@ -23,13 +23,13 @@ const LandingPage = () => {
             >
               <i className="fas fa-leaf text-white"></i>
             </div>
-            <span className="fw-bold fs-4" style={{ color: '#2E2E2E' }}>TechPlatform</span>
+            <span className="fw-bold fs-4" style={{ color: '#2E2E2E' }}>EcoModa 360</span>
           </div>
           
           <div className="navbar-nav d-none d-lg-flex flex-row me-auto ms-5">
-            <a className="nav-link px-3 fw-medium" href="#" style={{ color: '#2E2E2E' }}>Inicio</a>
-            <a className="nav-link px-3 fw-medium" href="#" style={{ color: '#717171' }}>Servicios</a>
-            <a className="nav-link px-3 fw-medium" href="#" style={{ color: '#717171' }}>Contacto</a>
+            <a className="nav-link px-3 fw-medium" href="#" style={{ color: '#002f19' }}>Inicio</a>
+            <a className="nav-link px-3 fw-medium" href="#" style={{ color: '#002f19' }}>Servicios</a>
+            <a className="nav-link px-3 fw-medium" href="#" style={{ color: '#002f19' }}>Contacto</a>
           </div>
 
           <div className="d-flex gap-2">
@@ -37,7 +37,7 @@ const LandingPage = () => {
               onClick={() => navigate('/login')}
               variant="link"
               className="text-decoration-none fw-medium"
-              style={{ color: '#4CAF50' }}
+              style={{ color: '#002f19' }}
             >
               Login
             </Button>
@@ -45,7 +45,7 @@ const LandingPage = () => {
               onClick={() => navigate('/register')}
               className="px-4 py-2 fw-medium"
               style={{
-                backgroundColor: '#4CAF50',
+                backgroundColor: '#002f19',
                 border: 'none',
                 borderRadius: '6px'
               }}
@@ -62,7 +62,7 @@ const LandingPage = () => {
           <Row className="align-items-center min-vh-75">
             <Col lg={6} className="pe-lg-5">
               <h1 className="display-4 fw-bold mb-4" style={{ color: '#2E2E2E' }}>
-                Reserva los mejores <span style={{ color: '#4CAF50' }}>computadores</span> con nosotros
+                Reserva los mejores <span style={{ color: '#002f19' }}>computadores</span> con nosotros
               </h1>
               <p className="fs-5 text-muted mb-4">
                 Has reservas de manera facil, rapida y segura.
@@ -71,7 +71,7 @@ const LandingPage = () => {
                 onClick={() => navigate('/register')}
                 className="px-4 py-3 fw-medium"
                 style={{
-                  backgroundColor: '#4CAF50',
+                  backgroundColor: '#002f19',
                   border: 'none',
                   borderRadius: '6px',
                   fontSize: '1.1rem'
